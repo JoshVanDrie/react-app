@@ -1,3 +1,10 @@
+
+/*colors*/
+:root{
+    var-bodyColor: #282D35;
+    var-navColor: #21222A;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -34,13 +41,18 @@ nav {
 }
 
 .nav--icon {
-    height: 30px;
+    height: 50px;
     margin-right: 7px;
 }
 
 main {
     padding: 57px 27px;
     color: white;
+    background-image: url("./images/react-icon-large.png");
+    background-repeat: no-repeat;
+    background-position-x: 120%;
+    background-position-y: center;
+    backdrop-filter: grayscale(70);
 }
 
 .main--title {
